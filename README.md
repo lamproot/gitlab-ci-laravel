@@ -21,6 +21,10 @@ This image contains:
 - mysql-client
 - openssh-client
 
+### CI configuration files:
+
+- [demos/gitlab-ci/](https://github.com/krwu/gitlab-ci-laravel/tree/master/demos/gitlab-ci/)
+
 ### For chinese users:
 
 You can use "**--build-arg CN_MIRROR=1**" to use Chinese debian jessie mirror, like:
