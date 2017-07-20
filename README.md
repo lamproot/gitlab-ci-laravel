@@ -1,5 +1,10 @@
 # laravel-ci docker image
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/dvbhack/laravel-ci.svg)][hub]
+[![Docker Stars](https://img.shields.io/docker/stars/dvbhack/laravel-ci.svg)][hub]
+[![Docker Layers](https://images.microbadger.com/badges/image/dvbhack/laravel-ci.svg)](https://microbadger.com/images/dvbhack/laravel-ci "Get your own image badge on microbadger.com")
+[![Docker Version](https://images.microbadger.com/badges/version/dvbhack/laravel-ci.svg)](https://microbadger.com/images/dvbhack/laravel-ci "Get your own version badge on microbadger.com")
+
 This image contains:
 
 - php 7.1 installed globally
@@ -32,3 +37,5 @@ You can use "**--build-arg CN_MIRROR=1**" to use Chinese debian jessie mirror, l
 ```bash
 docker build --build-arg CN_MIRROR=1 -t my:tag .
 ```
+
+[hub]: https://hub.docker.com/r/phpmyadmin/phpmyadmin/
