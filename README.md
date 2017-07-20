@@ -38,4 +38,4 @@ You can use "**--build-arg CN_MIRROR=1**" to use Chinese debian jessie mirror, l
 docker build --build-arg CN_MIRROR=1 -t my:tag .
 ```
 
-[hub]: https://hub.docker.com/r/phpmyadmin/phpmyadmin/
+[hub]: https://hub.docker.com/r/dvbhack/laravel-ci/
