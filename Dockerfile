@@ -18,6 +18,8 @@ RUN apt-get update && apt-get --no-install-recommends install -y curl apt-utils 
 
 # Install node 7.x
 RUN curl -sL https://deb.nodesource.com/setup_7.x | bash - && apt-get update && apt-get --no-install-recommends install -y nodejs
+# Install marked & node-gyp globally
+npm i -g marked node-gyp
 
 # Add key and repository for php 7.1
 RUN curl -sLo /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg && \
