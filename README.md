@@ -29,6 +29,7 @@ This image contains:
 ### CI configuration files:
 
 - [demos/gitlab-ci/](https://github.com/krwu/gitlab-ci-laravel/tree/master/demos/gitlab-ci/)
+- [demos/bitbucket/](https://github.com/krwu/gitlab-ci-laravel/tree/master/demos/bitbucket/)
 
 ### For chinese users:
 
