@@ -1,0 +1,23 @@
+image: dvbhack/laravel-ci:latest
+
+pipelines:
+  default:
+    - step:
+        caches:
+          - node
+          - composer
+        script:
+          - npm install
+          - npm run prod
+          - composer install
+          - php vendor/bin/phpunit --coverage-text --colors=never
+        services:
+          - mysql
+
+definitions:
+  services:
+    mysql:
+      image: mysql:5.7
+      environment:
+        MYSQL_DATABASE: 'test'
+        MYSQL_ROOT_PASSWORD: 'secret'
